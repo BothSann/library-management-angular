@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@angular/material/prebuilt-themes/azure-blue.css";
+
+/* Add these dark mode overrides */
+.dark {
+  /* Override Material background colors */
+  --mdc-filled-text-field-container-color: rgb(31 41 55) !important;
+  --mat-select-panel-background-color: rgb(31 41 55) !important;
+  --mat-option-selected-state-layer-color: rgba(255, 255, 255, 0.1) !important;
+  --mdc-outlined-text-field-outline-color: rgba(255, 255, 255, 0.2) !important;
+
+  /* Override Material text colors */
+  --mdc-filled-text-field-label-text-color: rgb(209 213 219) !important;
+  --mdc-filled-text-field-input-text-color: rgb(243 244 246) !important;
+  --mat-select-value-text-color: rgb(243 244 246) !important;
+  --mat-select-placeholder-text-color: rgb(209 213 219) !important;
+  --mat-select-disabled-text-color: rgba(255, 255, 255, 0.5) !important;
+  --mat-option-label-text-color: rgb(243 244 246) !important;
+
+  /* Material table dark mode */
+  .mat-mdc-table {
+    background: rgb(31 41 55) !important;
+    color: rgb(243 244 246) !important;
+  }
+
+  .mat-mdc-header-cell {
+    color: rgb(209 213 219) !important;
+  }
+
+  /* Material form field dark mode */
+  .mat-mdc-form-field-focus-overlay {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+  }
+
+  /* Material card dark mode */
+  .mat-mdc-card {
+    --mdc-elevated-card-container-color: rgb(31 41 55) !important;
+    color: rgb(243 244 246) !important;
+  }
+}
