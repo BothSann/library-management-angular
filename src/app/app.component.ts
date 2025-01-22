@@ -1,4 +1,3 @@
-// src/app/app.component.ts
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -73,7 +72,7 @@ export class AppComponent {
   isDarkMode = localStorage.getItem('darkMode') === 'true';
 
   constructor() {
-    // Apply dark mode on initial load if it was previously enabled
+    // Apply dark mode on initial load
     if (this.isDarkMode) {
       document.documentElement.classList.add('dark');
     }

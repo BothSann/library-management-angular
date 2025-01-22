@@ -1,4 +1,3 @@
-// src/app/components/edit-book/edit-book.component.ts
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
@@ -29,7 +28,6 @@ import { Book } from '../../models/book.model';
     MatSnackBarModule,
   ],
   template: `
-    <!-- sss -->
     <div class="max-w-2xl mx-auto">
       <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">
         Edit Book
@@ -218,14 +216,12 @@ export class EditBookComponent implements OnInit {
       if (this.book) {
         this.bookForm.patchValue(this.book);
 
-        // Update available copies validator
         this.bookForm
           .get('available')
           ?.addValidators(
             Validators.max(this.bookForm.get('numberOfCopies')?.value || 0)
           );
 
-        // Update available copies max when numberOfCopies changes
         this.bookForm.get('numberOfCopies')?.valueChanges.subscribe((value) => {
           this.bookForm
             .get('available')

@@ -10,14 +10,13 @@ export class BookService {
   private booksSubject = new BehaviorSubject<Book[]>([]);
 
   constructor() {
-    // Initialize with sample data
     this.addBook({
-      title: 'The Great Gatsby',
-      author: 'F. Scott Fitzgerald',
-      genre: 'Classic',
-      publicationYear: 1925,
+      title: 'JavaScript: The Definitive Guide',
+      author: 'David Flanagan',
+      genre: 'Technology',
+      publicationYear: 2020,
       numberOfCopies: 5,
-      available: 3,
+      available: 5,
     });
   }
 
