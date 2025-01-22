@@ -10,7 +10,6 @@ export class BookService {
   private booksSubject = new BehaviorSubject<Book[]>([]);
 
   constructor() {
-<<<<<<< HEAD
     this.addBook({
       title: 'JavaScript: The Definitive Guide',
       author: 'David Flanagan',
@@ -18,16 +17,6 @@ export class BookService {
       publicationYear: 2020,
       numberOfCopies: 5,
       available: 5,
-=======
-    // Initialize with sample data
-    this.addBook({
-      title: 'The Great Gatsby',
-      author: 'F. Scott Fitzgerald',
-      genre: 'Classic',
-      publicationYear: 1925,
-      numberOfCopies: 5,
-      available: 3,
->>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
     });
   }
 
