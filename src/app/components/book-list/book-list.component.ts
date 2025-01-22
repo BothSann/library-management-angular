@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/app/components/book-list/book-list.component.ts
+>>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTableModule } from '@angular/material/table';

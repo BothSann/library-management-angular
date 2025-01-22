@@ -4,13 +4,23 @@
 
 @import "@angular/material/prebuilt-themes/azure-blue.css";
 
+<<<<<<< HEAD
 /* Dark theme */
 .dark {
+=======
+/* Add these dark mode overrides */
+.dark {
+  /* Override Material background colors */
+>>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
   --mdc-filled-text-field-container-color: rgb(31 41 55) !important;
   --mat-select-panel-background-color: rgb(31 41 55) !important;
   --mat-option-selected-state-layer-color: rgba(255, 255, 255, 0.1) !important;
   --mdc-outlined-text-field-outline-color: rgba(255, 255, 255, 0.2) !important;
 
+<<<<<<< HEAD
+=======
+  /* Override Material text colors */
+>>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
   --mdc-filled-text-field-label-text-color: rgb(209 213 219) !important;
   --mdc-filled-text-field-input-text-color: rgb(243 244 246) !important;
   --mat-select-value-text-color: rgb(243 244 246) !important;
@@ -18,6 +28,10 @@
   --mat-select-disabled-text-color: rgba(255, 255, 255, 0.5) !important;
   --mat-option-label-text-color: rgb(243 244 246) !important;
 
+<<<<<<< HEAD
+=======
+  /* Material table dark mode */
+>>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
   .mat-mdc-table {
     background: rgb(31 41 55) !important;
     color: rgb(243 244 246) !important;
@@ -27,10 +41,18 @@
     color: rgb(209 213 219) !important;
   }
 
+<<<<<<< HEAD
+=======
+  /* Material form field dark mode */
+>>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
   .mat-mdc-form-field-focus-overlay {
     background-color: rgba(255, 255, 255, 0.05) !important;
   }
 
+<<<<<<< HEAD
+=======
+  /* Material card dark mode */
+>>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
   .mat-mdc-card {
     --mdc-elevated-card-container-color: rgb(31 41 55) !important;
     color: rgb(243 244 246) !important;
