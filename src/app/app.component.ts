@@ -73,11 +73,7 @@ export class AppComponent {
   isDarkMode = localStorage.getItem('darkMode') === 'true';
 
   constructor() {
-<<<<<<< HEAD
     // Apply dark mode on initial load
-=======
-    // Apply dark mode on initial load if it was previously enabled
->>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
     if (this.isDarkMode) {
       document.documentElement.classList.add('dark');
     }

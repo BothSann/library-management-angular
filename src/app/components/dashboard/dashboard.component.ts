@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// src/app/components/dashboard/dashboard.component.ts
->>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
@@ -13,10 +9,9 @@ import { BookService } from '../../services/book.service';
   imports: [CommonModule, MatCardModule],
   template: `
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-<<<<<<< HEAD
-=======
+      <<<<<<< HEAD =======
       <!-- Each mat-card gets dark mode classes -->
->>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
+      >>>>>>> 58b35fe1f1b26696c0c46ce86c48284a738adbe7
       <mat-card class="bg-white dark:bg-gray-800 shadow-lg">
         <mat-card-header>
           <mat-card-title class="text-gray-900 dark:text-gray-100"
